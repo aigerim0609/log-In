@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(180deg, rgb(138, 133, 239) 0%, rgb(251, 180, 248) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 80%;
+    background-color: rgb(201, 201, 252);
+    border-radius: 15px ;
+    box-shadow: 10px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    z-index: 10;
+    padding-bottom: 90px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+#LP{
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 30px;
+    background-color:rgb(174, 119, 226) ;
+    outline: none;
+}
+
+.block1{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.content_block1 span {
+    color:rgb(182, 111, 249) ;
+}
+
+.content_block2{
+    color: white;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.content_block2:hover{
+   color: blueviolet;
+   cursor: pointer;
+}
+
+.container_clon{
+    width: 500px;
+    height: 93%;
+    background-color: rgb(201, 201, 252);
+    border-radius: 15px ; 
+    position: absolute;
+    opacity: 0.6;
+    z-index: 1;
+    transform: rotate(7deg);
+}
+
+button{
+   
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 30px;
+    background-color:rgb(174, 119, 226) ;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(161, 197, 227);
+    cursor: pointer;
+}
+.solid{
+    color: white;
+    font-size: 25px;
+}
+.solid:hover{
+    cursor: pointer;
+    color:rgb(174, 119, 226)
+}
+.icons{
+    cursor: pointer;
+    color: rgb(198, 68, 250);
+    font-size: 30px;
+}
+.singIn{
+    font-size: 17px;
+}
+.singIn span{
+    color:rgb(250, 248, 251) ;
+}
+.singIn span:hover{
+    color:rgb(174, 119, 226);
+    cursor: pointer;
+}
+
